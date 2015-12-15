@@ -3,6 +3,8 @@ A folder description for DDD and PHP
 
 ## Folder Structure
 
+```
+
 .
 +-- Clients/                                        # Everything in Clients should be slim, and really call a service, and return the response
 |   +-- HTTP/                                       # May have limited static files.
@@ -64,3 +66,6 @@ A folder description for DDD and PHP
 |   +-- DI/
 |   +-- Emails/
 |   +-- WebServer/
+
+```
+
